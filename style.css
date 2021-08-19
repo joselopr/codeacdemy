@@ -1,0 +1,140 @@
+
+
+html,
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color:  seashell;
+  background-color: black;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: 5px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+
+.nav {
+  display: inline-flex;
+  padding: 30px;
+
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:  69px;
+  border-bottom: 1px solid seashell;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+}
+
+.nav-bar a {
+  color: seashell;
+  padding-left: 10px;
+}
+
+.nav-bar img {
+  height: 50px;
+}
+.container-items img {
+  width: 300px;
+  height: 200px;
+}
+
+.main-section {
+  background-image: url("images/img-mission-background.webp");
+  height: 700px;
+  background-size: cover;
+  opacity: 0.8;
+  display: flex;
+
+}
+
+.mission, h2 h4 {
+  margin: auto 0;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+
+}
+
+.center-title, h2, h4 {
+  padding: 10px;
+}
+
+.center-title {
+  text-align:  center;
+  margin: 50px auto;
+}
+
+.container {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 600px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+
+}
+
+.container .container-items {
+  margin: 20px 20px;
+  align-self: flex-start;
+}
+
+.container-items h4 {
+  text-align: center;
+}
+
+.section-location {
+  background-image: url('images/img-locations-background.webp');
+  height: 800px;
+  background-size: cover;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-location > h2 {
+  text-align: center;
+
+}
+
+.location-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-item {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  height: 250px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer, h2 h4 p {
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+
+
+
